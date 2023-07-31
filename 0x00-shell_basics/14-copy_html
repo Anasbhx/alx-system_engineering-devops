@@ -1,2 +1,2 @@
 #!/bin/bash
-cp -u *.htm ..
+cd "$(dirname "$0")" && cp -ur *.html ..
