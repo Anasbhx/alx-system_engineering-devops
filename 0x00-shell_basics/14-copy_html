@@ -1,2 +1,2 @@
 #!/bin/bash
-cd "$(dirname "$0")"; for file in *.html; do [[ ! -e "../$file" || "$file" -nt "../$file" ]] && cp "$file" ".."; done
+cp -un *.htm ../
